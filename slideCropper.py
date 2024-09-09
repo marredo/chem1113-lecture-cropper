@@ -2,7 +2,7 @@ import fitz  # PyMuPDF
 import os  # To handle file paths and filenames
 
 # Input PDF file path
-input_pdf_path = "/Users/manuel/Downloads/Chapter 3 Lecture Notes - CHEM 1113 Broering.pdf"
+input_pdf_path = "/path/to/your/Chem1113_LectureNotes.pdf"
 
 # Extract the directory, base name, and file extension from the input path
 input_dir = os.path.dirname(input_pdf_path)
